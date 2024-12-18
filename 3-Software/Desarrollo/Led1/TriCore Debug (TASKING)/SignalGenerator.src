@@ -1,0 +1,505 @@
+	; Module start
+	.compiler_version	"TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler v1.1r8 Build 22011964"
+	.compiler_invocation	"ctc -f cc12152a --dep-file=SignalGenerator.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc37x -D__CPU_TC37X__ --core=tc1.6.2 --fp-model=+float -D__CPU__=tc37x -IC:\\\\Proyectos\\\\20220123 Control Motores\\\\3-Software\\\\Desarrollo\\\\Led1 -IC:\\\\Proyectos\\\\20220123 Control Motores\\\\3-Software\\\\Desarrollo\\\\Led1\\\\Configurations -IC:\\\\Proyectos\\\\20220123 Control Motores\\\\3-Software\\\\Desarrollo\\\\Led1\\\\Libraries -IC:\\\\Proyectos\\\\20220123 Control Motores\\\\3-Software\\\\Desarrollo\\\\Led1\\\\Libraries\\\\Infra -IC:\\\\Proyectos\\\\20220123 Control Motores\\\\3-Software\\\\Desarrollo\\\\Led1\\\\Libraries\\\\Infra\\\\Platform -IC:\\\\Proyectos\\\\20220123 Control Motores\\\\3-Software\\\\Desarrollo\\\\Led1\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore -IC:\\\\Proyectos\\\\20220123 Control Motores\\\\3-Software\\\\Desarrollo\\\\Led1\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -IC:\\\\Proyectos\\\\20220123 Control Motores\\\\3-Software\\\\Desarrollo\\\\Led1\\\\Libraries\\\\Infra\\\\Sfr -IC:\\\\Proyectos\\\\20220123 Control Motores\\\\3-Software\\\\Desarrollo\\\\Led1\\\\Libraries\\\\Infra\\\\Sfr\\\\TC37A -IC:\\\\Proyectos\\\\20220123 Control Motores\\\\3-Software\\\\Desarrollo\\\\Led1\\\\Libraries\\\\Infra\\\\Sfr\\\\TC37A\\\\_Reg -IC:\\\\Proyectos\\\\20220123 Control Motores\\\\3-Software\\\\Desarrollo\\\\Led1\\\\Libraries\\\\Infra\\\\Ssw -IC:\\\\Proyectos\\\\20220123 Control Motores\\\\3-Software\\\\Desarrollo\\\\Led1\\\\Libraries\\\\Infra\\\\Ssw\\\\TC37A -IC:\\\\Proyectos\\\\20220123 Control Motores\\\\3-Software\\\\Desarrollo\\\\Led1\\\\Libraries\\\\Infra\\\\Ssw\\\\TC37A\\\\Tricore -IC:\\\\Proyectos\\\\20220123 Control Motores\\\\3-Software\\\\Desarrollo\\\\Led1\\\\Libraries\\\\OneEye -IC:\\\\Proyectos\\\\20220123 Control Motores\\\\3-Software\\\\Desarrollo\\\\Led1\\\\Libraries\\\\Service -IC:\\\\Proyectos\\\\20220123 Control Motores\\\\3-Software\\\\Desarrollo\\\\Led1\\\\Libraries\\\\Service\\\\CpuGeneric -IC:\\\\Proyectos\\\\20220123 Control Motores\\\\3-Software\\\\Desarrollo\\\\Led1\\\\Libraries\\\\Service\\\\CpuGeneric\\\\StdIf -IC:\\\\Proyectos\\\\20220123 Control Motores\\\\3-Software\\\\Desarrollo\\\\Led1\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe -IC:\\\\Proyectos\\\\20220123 Control Motores\\\\3-Software\\\\Desarrollo\\\\Led1\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Bsp -IC:\\\\Proyectos\\\\20220123 Control Motores\\\\3-Software\\\\Desarrollo\\\\Led1\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Math -IC:\\\\Proyectos\\\\20220123 Control Motores\\\\3-Software\\\\Desarrollo\\\\Led1\\\\Libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -IC:\\\\Proyectos\\\\20220123 Control Motores\\\\3-Software\\\\Desarrollo\\\\Led1\\\\Libraries\\\\iLLD -IC:\\\\Proyectos\\\\20220123 Control Motores\\\\3-Software\\\\Desarrollo\\\\Led1\\\\Libraries\\\\iLLD\\\\TC37A -IC:\\\\Proyectos\\\\20220123 Control Motores\\\\3-Software\\\\Desarrollo\\\\Led1\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore -IC:\\\\Proyectos\\\\20220123 Control Motores\\\\3-Software\\\\Desarrollo\\\\Led1\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu -IC:\\\\Proyectos\\\\20220123 Control Motores\\\\3-Software\\\\Desarrollo\\\\Led1\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Irq -IC:\\\\Proyectos\\\\20220123 Control Motores\\\\3-Software\\\\Desarrollo\\\\Led1\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Std -IC:\\\\Proyectos\\\\20220123 Control Motores\\\\3-Software\\\\Desarrollo\\\\Led1\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Trap -IC:\\\\Proyectos\\\\20220123 Control Motores\\\\3-Software\\\\Desarrollo\\\\Led1\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm -IC:\\\\Proyectos\\\\20220123 Control Motores\\\\3-Software\\\\Desarrollo\\\\Led1\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm\\\\Std -IC:\\\\Proyectos\\\\20220123 Control Motores\\\\3-Software\\\\Desarrollo\\\\Led1\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Mtu -IC:\\\\Proyectos\\\\20220123 Control Motores\\\\3-Software\\\\Desarrollo\\\\Led1\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Mtu\\\\Std -IC:\\\\Proyectos\\\\20220123 Control Motores\\\\3-Software\\\\Desarrollo\\\\Led1\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Pms -IC:\\\\Proyectos\\\\20220123 Control Motores\\\\3-Software\\\\Desarrollo\\\\Led1\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Pms\\\\Std -IC:\\\\Proyectos\\\\20220123 Control Motores\\\\3-Software\\\\Desarrollo\\\\Led1\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Port -IC:\\\\Proyectos\\\\20220123 Control Motores\\\\3-Software\\\\Desarrollo\\\\Led1\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Port\\\\Io -IC:\\\\Proyectos\\\\20220123 Control Motores\\\\3-Software\\\\Desarrollo\\\\Led1\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Port\\\\Std -IC:\\\\Proyectos\\\\20220123 Control Motores\\\\3-Software\\\\Desarrollo\\\\Led1\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Scu -IC:\\\\Proyectos\\\\20220123 Control Motores\\\\3-Software\\\\Desarrollo\\\\Led1\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Scu\\\\Std -IC:\\\\Proyectos\\\\20220123 Control Motores\\\\3-Software\\\\Desarrollo\\\\Led1\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Src -IC:\\\\Proyectos\\\\20220123 Control Motores\\\\3-Software\\\\Desarrollo\\\\Led1\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Src\\\\Std -IC:\\\\Proyectos\\\\20220123 Control Motores\\\\3-Software\\\\Desarrollo\\\\Led1\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Stm -IC:\\\\Proyectos\\\\20220123 Control Motores\\\\3-Software\\\\Desarrollo\\\\Led1\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Stm\\\\Std -IC:\\\\Proyectos\\\\20220123 Control Motores\\\\3-Software\\\\Desarrollo\\\\Led1\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_Impl -IC:\\\\Proyectos\\\\20220123 Control Motores\\\\3-Software\\\\Desarrollo\\\\Led1\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_PinMap -g2 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2004 -o SignalGenerator.src ../SignalGenerator.c"
+	.compiler_name		"ctc"
+	;source	'../SignalGenerator.c'
+
+	
+$TC162
+	
+	.sdecl	'.text.SignalGenerator.computeSignals',code,cluster('computeSignals')
+	.sect	'.text.SignalGenerator.computeSignals'
+	.align	2
+	
+	.global	computeSignals
+; Function computeSignals
+.L5:
+computeSignals:	.type	func
+	movh.a	a2,#@his(g_signalGenerator)
+	lea	a2,[a2]@los(g_signalGenerator)
+	movh.a	a15,#@his(g_signalGenerator)
+	lea	a15,[a15]@los(g_signalGenerator)
+.L53:
+	ld.w	d15,[a15]8
+.L54:
+	movh.a	a15,#@his(g_signalGenerator)
+	lea	a15,[a15]@los(g_signalGenerator)
+.L55:
+	ld.w	d0,[a15]4
+.L56:
+	add.f	d15,d15,d0
+	st.w	[a2]8,d15
+.L57:
+	movh.a	a15,#@his(g_signalGenerator)
+	lea	a15,[a15]@los(g_signalGenerator)
+.L58:
+	ld.w	d15,[a15]8
+.L59:
+	movh.a	a15,#@his(g_signalGenerator)
+	lea	a15,[a15]@los(g_signalGenerator)
+.L60:
+	ld.w	d0,[a15]
+.L61:
+	cmp.f	d15,d15,d0
+	extr.u	d15,d15,#2,#1
+.L62:
+	jeq	d15,#0,.L2
+.L63:
+	movh.a	a15,#@his(g_signalGenerator)
+	lea	a15,[a15]@los(g_signalGenerator)
+.L64:
+	mov	d15,#0
+.L65:
+	st.w	[a15]8,d15
+.L2:
+	movh.a	a2,#@his(g_signalGenerator)
+	lea	a2,[a2]@los(g_signalGenerator)
+	movh.a	a15,#@his(g_signalGenerator)
+	lea	a15,[a15]@los(g_signalGenerator)
+.L66:
+	ld.w	d15,[a15]12
+	itof	d0,d15
+.L67:
+	movh.a	a15,#@his(g_signalGenerator)
+	lea	a15,[a15]@los(g_signalGenerator)
+.L68:
+	ld.w	d15,[a15]4
+.L69:
+	add.f	d15,d0,d15
+	ftoiz	d15,d15
+	st.w	[a2]12,d15
+.L70:
+	movh.a	a15,#@his(g_signalGenerator)
+	lea	a15,[a15]@los(g_signalGenerator)
+.L71:
+	ld.w	d15,[a15]12
+	itof	d15,d15
+.L72:
+	movh.a	a15,#@his(g_signalGenerator)
+	lea	a15,[a15]@los(g_signalGenerator)
+.L73:
+	ld.w	d0,[a15]
+.L74:
+	cmp.f	d15,d15,d0
+	extr.u	d15,d15,#2,#1
+.L75:
+	jeq	d15,#0,.L3
+.L76:
+	movh.a	a15,#@his(g_signalGenerator)
+	lea	a15,[a15]@los(g_signalGenerator)
+.L77:
+	mov	d15,#0
+.L78:
+	st.w	[a15]12,d15
+.L3:
+	ret
+.L25:
+	
+__computeSignals_function_end:
+	.size	computeSignals,__computeSignals_function_end-computeSignals
+.L21:
+	; End of function
+	
+	.sdecl	'.text.SignalGenerator.initSignals',code,cluster('initSignals')
+	.sect	'.text.SignalGenerator.initSignals'
+	.align	2
+	
+	.global	initSignals
+; Function initSignals
+.L7:
+initSignals:	.type	func
+	movh.a	a15,#@his(g_signalGenerator)
+	lea	a15,[a15]@los(g_signalGenerator)
+.L35:
+	movh	d15,#16256
+.L36:
+	st.w	[a15]4,d15
+.L37:
+	movh.a	a15,#@his(g_signalGenerator)
+	lea	a15,[a15]@los(g_signalGenerator)
+.L38:
+	movh	d15,#17530
+.L39:
+	st.w	[a15],d15
+.L40:
+	movh.a	a15,#@his(g_signalGenerator)
+	lea	a15,[a15]@los(g_signalGenerator)
+.L41:
+	mov	d15,#0
+.L42:
+	st.w	[a15]8,d15
+.L43:
+	movh.a	a15,#@his(g_signalGenerator)
+	lea	a15,[a15]@los(g_signalGenerator)
+.L44:
+	movh	d15,#17530
+.L45:
+	movh	d0,#16384
+.L46:
+	div.f	d15,d15,d0
+	ftoiz	d15,d15
+.L47:
+	st.w	[a15]12,d15
+.L48:
+	ret
+.L24:
+	
+__initSignals_function_end:
+	.size	initSignals,__initSignals_function_end-initSignals
+.L16:
+	; End of function
+	
+	.sdecl	'.bss.SignalGenerator.g_signalGenerator',data,cluster('g_signalGenerator')
+	.sect	'.bss.SignalGenerator.g_signalGenerator'
+	.global	g_signalGenerator
+	.align	4
+g_signalGenerator:	.type	object
+	.size	g_signalGenerator,16
+	.space	16
+	.calls	'computeSignals','',0
+	.calls	'initSignals','',0
+	.sdecl	'.debug_info',debug
+	.sect	'.debug_info'
+.L9:
+	.word	711
+	.half	3
+	.word	.L10
+	.byte	4
+.L8:
+	.byte	1
+	.byte	'../SignalGenerator.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Proyectos\\20220123 Control Motores\\3-Software\\Desarrollo\\Led1\\TriCore Debug (TASKING)\\',0,12
+	.byte	1
+	.word	.L11
+	.byte	2
+	.byte	'short int',0,2,5,3
+	.byte	'__wchar_t',0,1,1,1
+	.word	206
+	.byte	2
+	.byte	'unsigned int',0,4,7,3
+	.byte	'__size_t',0,1,1,1
+	.word	237
+	.byte	2
+	.byte	'int',0,4,5,3
+	.byte	'__ptrdiff_t',0,1,1,1
+	.word	270
+	.byte	4,1,5
+	.word	297
+	.byte	3
+	.byte	'__codeptr',0,1,1,1
+	.word	299
+	.byte	2
+	.byte	'unsigned char',0,1,8,3
+	.byte	'uint8',0,2,108,29
+	.word	322
+	.byte	2
+	.byte	'unsigned short int',0,2,7,3
+	.byte	'uint16',0,2,112,29
+	.word	353
+	.byte	2
+	.byte	'unsigned long int',0,4,7,3
+	.byte	'uint32',0,2,116,29
+	.word	390
+	.byte	3
+	.byte	'sint16',0,2,129,1,29
+	.word	206
+	.byte	2
+	.byte	'long int',0,4,5,3
+	.byte	'sint32',0,2,134,1,29
+	.word	442
+	.byte	2
+	.byte	'long long int',0,8,5,3
+	.byte	'sint64',0,2,141,1,29
+	.word	470
+	.byte	2
+	.byte	'float',0,4,4,3
+	.byte	'float32',0,2,170,1,29
+	.word	503
+	.byte	6
+	.byte	'void',0,5
+	.word	529
+	.byte	3
+	.byte	'pvoid',0,3,54,28
+	.word	535
+	.byte	3
+	.byte	'Ifx_TickTime',0,3,76,28
+	.word	470
+	.byte	7,4,49,5,8,8
+	.byte	'max',0
+	.word	503
+	.byte	4,2,35,0,8
+	.byte	'increment',0
+	.word	503
+	.byte	4,2,35,4,0,7,4,55,5,8,8
+	.byte	'signalA',0
+	.word	503
+	.byte	4,2,35,0,8
+	.byte	'signalB',0
+	.word	442
+	.byte	4,2,35,4,0
+.L26:
+	.byte	7,4,47,9,16,8
+	.byte	'input',0
+	.word	575
+	.byte	8,2,35,0,8
+	.byte	'output',0
+	.word	613
+	.byte	8,2,35,8,0,3
+	.byte	'SignalGenerator',0,4,60,3
+	.word	653
+	.byte	0
+	.sdecl	'.debug_abbrev',debug
+	.sect	'.debug_abbrev'
+.L10:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,16,6,0,0,2,36,0,3,8,11,15,62,15,0,0,3,22,0,3,8,58,15,59,15,57,15
+	.byte	73,19,0,0,4,21,0,54,15,0,0,5,15,0,73,19,0,0,6,59,0,3,8,0,0,7,19,1,58,15,59,15,57,15,11,15,0,0,8,13,0,3
+	.byte	8,73,19,11,15,56,9,0,0,0
+	.sdecl	'.debug_line',debug
+	.sect	'.debug_line'
+.L11:
+	.word	.L28-.L27
+.L27:
+	.half	3
+	.word	.L30-.L29
+.L29:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
+	.byte	'C:\\\\Proyectos\\\\20220123 Control Motores\\\\3-Software\\\\Desarrollo\\\\Led1\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Std',0
+	.byte	0
+	.byte	'../SignalGenerator.c',0,0,0,0
+	.byte	'Platform_Types.h',0,1,0,0
+	.byte	'Ifx_Types.h',0,1,0,0
+	.byte	'..\\SignalGenerator.h',0,0,0,0,0
+.L30:
+.L28:
+	.sdecl	'.debug_info',debug,cluster('initSignals')
+	.sect	'.debug_info'
+.L12:
+	.word	253
+	.half	3
+	.word	.L13
+	.byte	4,1
+	.byte	'../SignalGenerator.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Proyectos\\20220123 Control Motores\\3-Software\\Desarrollo\\Led1\\TriCore Debug (TASKING)\\',0,12
+	.byte	1
+	.word	.L15,.L14
+	.byte	2
+	.word	.L8
+	.byte	3
+	.byte	'initSignals',0,1,67,6,1,1,1
+	.word	.L7,.L24,.L6
+	.byte	4
+	.word	.L7,.L24
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('initSignals')
+	.sect	'.debug_abbrev'
+.L13:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('initSignals')
+	.sect	'.debug_line'
+.L14:
+	.word	.L32-.L31
+.L31:
+	.half	3
+	.word	.L34-.L33
+.L33:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../SignalGenerator.c',0,0,0,0,0
+.L34:
+	.byte	5,5,7,0,5,2
+	.word	.L7
+	.byte	3,196,0,1,5,41,9
+	.half	.L35-.L7
+	.byte	1,5,39,9
+	.half	.L36-.L35
+	.byte	1,5,5,9
+	.half	.L37-.L36
+	.byte	3,1,1,5,35,9
+	.half	.L38-.L37
+	.byte	1,5,33,9
+	.half	.L39-.L38
+	.byte	1,5,5,9
+	.half	.L40-.L39
+	.byte	3,1,1,5,40,9
+	.half	.L41-.L40
+	.byte	1,5,38,9
+	.half	.L42-.L41
+	.byte	1,5,5,9
+	.half	.L43-.L42
+	.byte	3,1,1,5,63,9
+	.half	.L44-.L43
+	.byte	1,5,70,9
+	.half	.L45-.L44
+	.byte	1,5,68,9
+	.half	.L46-.L45
+	.byte	1,5,38,9
+	.half	.L47-.L46
+	.byte	1,5,1,9
+	.half	.L48-.L47
+	.byte	3,1,1,7,9
+	.half	.L16-.L48
+	.byte	0,1,1
+.L32:
+	.sdecl	'.debug_ranges',debug,cluster('initSignals')
+	.sect	'.debug_ranges'
+.L15:
+	.word	-1,.L7,0,.L16-.L7,0,0
+	.sdecl	'.debug_info',debug,cluster('computeSignals')
+	.sect	'.debug_info'
+.L17:
+	.word	256
+	.half	3
+	.word	.L18
+	.byte	4,1
+	.byte	'../SignalGenerator.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Proyectos\\20220123 Control Motores\\3-Software\\Desarrollo\\Led1\\TriCore Debug (TASKING)\\',0,12
+	.byte	1
+	.word	.L20,.L19
+	.byte	2
+	.word	.L8
+	.byte	3
+	.byte	'computeSignals',0,1,49,6,1,1,1
+	.word	.L5,.L25,.L4
+	.byte	4
+	.word	.L5,.L25
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('computeSignals')
+	.sect	'.debug_abbrev'
+.L18:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('computeSignals')
+	.sect	'.debug_line'
+.L19:
+	.word	.L50-.L49
+.L49:
+	.half	3
+	.word	.L52-.L51
+.L51:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../SignalGenerator.c',0,0,0,0,0
+.L52:
+	.byte	5,5,7,0,5,2
+	.word	.L5
+	.byte	3,51,1,5,29,9
+	.half	.L53-.L5
+	.byte	1,5,41,9
+	.half	.L54-.L53
+	.byte	1,5,64,9
+	.half	.L55-.L54
+	.byte	1,5,38,9
+	.half	.L56-.L55
+	.byte	1,5,9,9
+	.half	.L57-.L56
+	.byte	3,1,1,5,33,9
+	.half	.L58-.L57
+	.byte	1,5,44,9
+	.half	.L59-.L58
+	.byte	1,5,67,9
+	.half	.L60-.L59
+	.byte	1,5,42,9
+	.half	.L61-.L60
+	.byte	1,5,5,9
+	.half	.L62-.L61
+	.byte	1,5,9,7,9
+	.half	.L63-.L62
+	.byte	3,2,1,5,44,9
+	.half	.L64-.L63
+	.byte	1,5,42,9
+	.half	.L65-.L64
+	.byte	1,5,5,9
+	.half	.L2-.L65
+	.byte	3,4,1,5,29,9
+	.half	.L66-.L2
+	.byte	1,5,41,9
+	.half	.L67-.L66
+	.byte	1,5,64,9
+	.half	.L68-.L67
+	.byte	1,5,38,9
+	.half	.L69-.L68
+	.byte	1,5,9,9
+	.half	.L70-.L69
+	.byte	3,1,1,5,33,9
+	.half	.L71-.L70
+	.byte	1,5,44,9
+	.half	.L72-.L71
+	.byte	1,5,67,9
+	.half	.L73-.L72
+	.byte	1,5,42,9
+	.half	.L74-.L73
+	.byte	1,5,5,9
+	.half	.L75-.L74
+	.byte	1,5,9,7,9
+	.half	.L76-.L75
+	.byte	3,2,1,5,44,9
+	.half	.L77-.L76
+	.byte	1,5,42,9
+	.half	.L78-.L77
+	.byte	1,5,1,9
+	.half	.L3-.L78
+	.byte	3,2,1,7,9
+	.half	.L21-.L3
+	.byte	0,1,1
+.L50:
+	.sdecl	'.debug_ranges',debug,cluster('computeSignals')
+	.sect	'.debug_ranges'
+.L20:
+	.word	-1,.L5,0,.L21-.L5,0,0
+	.sdecl	'.debug_info',debug,cluster('g_signalGenerator')
+	.sect	'.debug_info'
+.L22:
+	.word	237
+	.half	3
+	.word	.L23
+	.byte	4,1
+	.byte	'../SignalGenerator.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Proyectos\\20220123 Control Motores\\3-Software\\Desarrollo\\Led1\\TriCore Debug (TASKING)\\',0,12
+	.byte	1,2
+	.word	.L8
+	.byte	3
+	.byte	'g_signalGenerator',0,1,43,17
+	.word	.L26
+	.byte	1,5,3
+	.word	g_signalGenerator
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('g_signalGenerator')
+	.sect	'.debug_abbrev'
+.L23:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_loc',debug,cluster('computeSignals')
+	.sect	'.debug_loc'
+.L4:
+	.word	-1,.L5,0,.L25-.L5
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('initSignals')
+	.sect	'.debug_loc'
+.L6:
+	.word	-1,.L7,0,.L24-.L7
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_frame',debug
+	.sect	'.debug_frame'
+.L79:
+	.word	48
+	.word	-1
+	.byte	3,0,2,1,27,12,26,0,8,26,8,27,8,30,8,29,8,28,8,16,8,17,8,24,8,25,8,31,8,32,8,33,8,34,8,35,8,36,8,37,8,38
+	.byte	8,39
+	.sdecl	'.debug_frame',debug,cluster('computeSignals')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L79,.L5,.L25-.L5
+	.byte	8,19,8,20,8,21,8,22,8,23,0,0
+	.sdecl	'.debug_frame',debug,cluster('initSignals')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L79,.L7,.L24-.L7
+	.byte	8,18,8,19,8,20,8,21,8,22,8,23
+	; Module end

@@ -1,0 +1,13 @@
+16:25:20 **** Incremental Build of configuration TriCore Debug (TASKING) for project iLLD_TC375_ADS_Blinky_LED_CPP ****
+amk -j8 all 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): program builder v1.1r8 Build 22011964
+Invoking: Print Size
+elfsize  "iLLD_TC375_ADS_Blinky_LED_CPP.elf"
+Total sizes:
+ROM: 0x3cfd (15613) = code: 0x296c (10604) + romdata: 0x1391 (5009)
+RAM: 0x9531 (38193) = data + bss
+Finished building: iLLD_TC375_ADS_Blinky_LED_CPP.siz
+ 
+
+16:25:20 Build Finished. 0 errors, 0 warnings. (took 161ms)
+

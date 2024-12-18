@@ -1,0 +1,13 @@
+18:30:41 **** Incremental Build of configuration Debug for project ADC_Single_Channel_1_KIT_TC375_LK ****
+amk -j8 all 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): program builder v1.1r8 Build 22011964
+Invoking: Print Size
+elfsize  "ADC_Single_Channel_1_KIT_TC375_LK.elf"
+Total sizes:
+ROM: 0x4816 (18454) = code: 0x32f2 (13042) + romdata: 0x1524 (5412)
+RAM: 0x8580 (34176) = data + bss
+Finished building: ADC_Single_Channel_1_KIT_TC375_LK.siz
+ 
+
+18:30:41 Build Finished. 0 errors, 0 warnings. (took 161ms)
+

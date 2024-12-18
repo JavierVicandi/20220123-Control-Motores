@@ -1,0 +1,13 @@
+18:05:15 **** Incremental Build of configuration Debug for project OneEye_DAS_Oscilloscope_1_KIT_TC375_LK ****
+amk -j8 all 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): program builder v1.1r8 Build 22011964
+Invoking: Print Size
+elfsize  "OneEye_DAS_Oscilloscope_1_KIT_TC375_LK.elf"
+Total sizes:
+ROM: 0x46c3 (18115) = code: 0x331a (13082) + romdata: 0x13a9 (5033)
+RAM: 0xe81d (59421) = data + bss
+Finished building: OneEye_DAS_Oscilloscope_1_KIT_TC375_LK.siz
+ 
+
+18:05:16 Build Finished. 0 errors, 0 warnings. (took 166ms)
+

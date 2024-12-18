@@ -1,0 +1,13 @@
+17:11:57 **** Incremental Build of configuration Debug for project Multicore_1_KIT_TC375_LK ****
+amk -j8 all 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): program builder v1.1r8 Build 22011964
+Invoking: Print Size
+elfsize  "Multicore_1_KIT_TC375_LK.elf"
+Total sizes:
+ROM: 0x388e (14478) = code: 0x2540 (9536) + romdata: 0x134e (4942)
+RAM: 0x848e (33934) = data + bss
+Finished building: Multicore_1_KIT_TC375_LK.siz
+ 
+
+17:11:57 Build Finished. 0 errors, 0 warnings. (took 159ms)
+

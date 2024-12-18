@@ -1,0 +1,1615 @@
+	; Module start
+	.compiler_version	"TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler v1.1r8 Build 22011964"
+	.compiler_invocation	"ctc -f cc28836a --dep-file=Libraries/OneEye/ifx_oneeyedaspipe.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc37x -D__CPU_TC37X__ --core=tc1.6.2 --fp-model=+float -D__CPU__=tc37x -IC:\\\\Proyectos\\\\20220123 Control Motores\\\\3-Software\\\\Desarrollo\\\\Led1 -IC:\\\\Proyectos\\\\20220123 Control Motores\\\\3-Software\\\\Desarrollo\\\\Led1\\\\Configurations -IC:\\\\Proyectos\\\\20220123 Control Motores\\\\3-Software\\\\Desarrollo\\\\Led1\\\\Libraries -IC:\\\\Proyectos\\\\20220123 Control Motores\\\\3-Software\\\\Desarrollo\\\\Led1\\\\Libraries\\\\Infra -IC:\\\\Proyectos\\\\20220123 Control Motores\\\\3-Software\\\\Desarrollo\\\\Led1\\\\Libraries\\\\Infra\\\\Platform -IC:\\\\Proyectos\\\\20220123 Control Motores\\\\3-Software\\\\Desarrollo\\\\Led1\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore -IC:\\\\Proyectos\\\\20220123 Control Motores\\\\3-Software\\\\Desarrollo\\\\Led1\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -IC:\\\\Proyectos\\\\20220123 Control Motores\\\\3-Software\\\\Desarrollo\\\\Led1\\\\Libraries\\\\Infra\\\\Sfr -IC:\\\\Proyectos\\\\20220123 Control Motores\\\\3-Software\\\\Desarrollo\\\\Led1\\\\Libraries\\\\Infra\\\\Sfr\\\\TC37A -IC:\\\\Proyectos\\\\20220123 Control Motores\\\\3-Software\\\\Desarrollo\\\\Led1\\\\Libraries\\\\Infra\\\\Sfr\\\\TC37A\\\\_Reg -IC:\\\\Proyectos\\\\20220123 Control Motores\\\\3-Software\\\\Desarrollo\\\\Led1\\\\Libraries\\\\Infra\\\\Ssw -IC:\\\\Proyectos\\\\20220123 Control Motores\\\\3-Software\\\\Desarrollo\\\\Led1\\\\Libraries\\\\Infra\\\\Ssw\\\\TC37A -IC:\\\\Proyectos\\\\20220123 Control Motores\\\\3-Software\\\\Desarrollo\\\\Led1\\\\Libraries\\\\Infra\\\\Ssw\\\\TC37A\\\\Tricore -IC:\\\\Proyectos\\\\20220123 Control Motores\\\\3-Software\\\\Desarrollo\\\\Led1\\\\Libraries\\\\OneEye -IC:\\\\Proyectos\\\\20220123 Control Motores\\\\3-Software\\\\Desarrollo\\\\Led1\\\\Libraries\\\\Service -IC:\\\\Proyectos\\\\20220123 Control Motores\\\\3-Software\\\\Desarrollo\\\\Led1\\\\Libraries\\\\Service\\\\CpuGeneric -IC:\\\\Proyectos\\\\20220123 Control Motores\\\\3-Software\\\\Desarrollo\\\\Led1\\\\Libraries\\\\Service\\\\CpuGeneric\\\\StdIf -IC:\\\\Proyectos\\\\20220123 Control Motores\\\\3-Software\\\\Desarrollo\\\\Led1\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe -IC:\\\\Proyectos\\\\20220123 Control Motores\\\\3-Software\\\\Desarrollo\\\\Led1\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Bsp -IC:\\\\Proyectos\\\\20220123 Control Motores\\\\3-Software\\\\Desarrollo\\\\Led1\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Math -IC:\\\\Proyectos\\\\20220123 Control Motores\\\\3-Software\\\\Desarrollo\\\\Led1\\\\Libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -IC:\\\\Proyectos\\\\20220123 Control Motores\\\\3-Software\\\\Desarrollo\\\\Led1\\\\Libraries\\\\iLLD -IC:\\\\Proyectos\\\\20220123 Control Motores\\\\3-Software\\\\Desarrollo\\\\Led1\\\\Libraries\\\\iLLD\\\\TC37A -IC:\\\\Proyectos\\\\20220123 Control Motores\\\\3-Software\\\\Desarrollo\\\\Led1\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore -IC:\\\\Proyectos\\\\20220123 Control Motores\\\\3-Software\\\\Desarrollo\\\\Led1\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu -IC:\\\\Proyectos\\\\20220123 Control Motores\\\\3-Software\\\\Desarrollo\\\\Led1\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Irq -IC:\\\\Proyectos\\\\20220123 Control Motores\\\\3-Software\\\\Desarrollo\\\\Led1\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Std -IC:\\\\Proyectos\\\\20220123 Control Motores\\\\3-Software\\\\Desarrollo\\\\Led1\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Trap -IC:\\\\Proyectos\\\\20220123 Control Motores\\\\3-Software\\\\Desarrollo\\\\Led1\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm -IC:\\\\Proyectos\\\\20220123 Control Motores\\\\3-Software\\\\Desarrollo\\\\Led1\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm\\\\Std -IC:\\\\Proyectos\\\\20220123 Control Motores\\\\3-Software\\\\Desarrollo\\\\Led1\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Mtu -IC:\\\\Proyectos\\\\20220123 Control Motores\\\\3-Software\\\\Desarrollo\\\\Led1\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Mtu\\\\Std -IC:\\\\Proyectos\\\\20220123 Control Motores\\\\3-Software\\\\Desarrollo\\\\Led1\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Pms -IC:\\\\Proyectos\\\\20220123 Control Motores\\\\3-Software\\\\Desarrollo\\\\Led1\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Pms\\\\Std -IC:\\\\Proyectos\\\\20220123 Control Motores\\\\3-Software\\\\Desarrollo\\\\Led1\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Port -IC:\\\\Proyectos\\\\20220123 Control Motores\\\\3-Software\\\\Desarrollo\\\\Led1\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Port\\\\Io -IC:\\\\Proyectos\\\\20220123 Control Motores\\\\3-Software\\\\Desarrollo\\\\Led1\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Port\\\\Std -IC:\\\\Proyectos\\\\20220123 Control Motores\\\\3-Software\\\\Desarrollo\\\\Led1\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Scu -IC:\\\\Proyectos\\\\20220123 Control Motores\\\\3-Software\\\\Desarrollo\\\\Led1\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Scu\\\\Std -IC:\\\\Proyectos\\\\20220123 Control Motores\\\\3-Software\\\\Desarrollo\\\\Led1\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Src -IC:\\\\Proyectos\\\\20220123 Control Motores\\\\3-Software\\\\Desarrollo\\\\Led1\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Src\\\\Std -IC:\\\\Proyectos\\\\20220123 Control Motores\\\\3-Software\\\\Desarrollo\\\\Led1\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Stm -IC:\\\\Proyectos\\\\20220123 Control Motores\\\\3-Software\\\\Desarrollo\\\\Led1\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Stm\\\\Std -IC:\\\\Proyectos\\\\20220123 Control Motores\\\\3-Software\\\\Desarrollo\\\\Led1\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_Impl -IC:\\\\Proyectos\\\\20220123 Control Motores\\\\3-Software\\\\Desarrollo\\\\Led1\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_PinMap -g2 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2004 -o Libraries/OneEye/ifx_oneeyedaspipe.src ../Libraries/OneEye/ifx_oneeyedaspipe.c"
+	.compiler_name		"ctc"
+	;source	'../Libraries/OneEye/ifx_oneeyedaspipe.c'
+
+	
+$TC162
+	
+	.sdecl	'.text.ifx_oneeyedaspipe.Ifx_OneEyeDasPipe_Write',code,cluster('Ifx_OneEyeDasPipe_Write')
+	.sect	'.text.ifx_oneeyedaspipe.Ifx_OneEyeDasPipe_Write'
+	.align	2
+	
+	.global	Ifx_OneEyeDasPipe_Write
+; Function Ifx_OneEyeDasPipe_Write
+.L10:
+Ifx_OneEyeDasPipe_Write:	.type	func
+	mov.aa	a15,a4
+.L100:
+	mov.aa	a12,a6
+.L101:
+	mov	e6,d5,d4
+.L161:
+	mov	d2,#1
+.L102:
+	ld.h	d15,[a12]
+.L162:
+	jeq	d15,#0,.L2
+.L163:
+	lea	a4,[a15]12
+.L98:
+	ld.h	d4,[a12]
+.L99:
+	call	Ifx_OneEyeDasFifo_write
+.L97:
+	ld.w	d15,[a15]40
+.L164:
+	ld.h	d0,[a12]
+.L165:
+	sub	d0,d2
+.L166:
+	add	d15,d0
+.L167:
+	st.w	[a15]40,d15
+.L168:
+	ld.h	d15,[a12]
+.L169:
+	sub	d15,d2
+	st.h	[a12],d15
+.L170:
+	eq	d2,d2,#0
+.L2:
+	j	.L3
+.L3:
+	ret
+.L76:
+	
+__Ifx_OneEyeDasPipe_Write_function_end:
+	.size	Ifx_OneEyeDasPipe_Write,__Ifx_OneEyeDasPipe_Write_function_end-Ifx_OneEyeDasPipe_Write
+.L46:
+	; End of function
+	
+	.sdecl	'.text.ifx_oneeyedaspipe.Ifx_OneEyeDasPipe_Read',code,cluster('Ifx_OneEyeDasPipe_Read')
+	.sect	'.text.ifx_oneeyedaspipe.Ifx_OneEyeDasPipe_Read'
+	.align	2
+	
+	.global	Ifx_OneEyeDasPipe_Read
+; Function Ifx_OneEyeDasPipe_Read
+.L12:
+Ifx_OneEyeDasPipe_Read:	.type	func
+	mov.aa	a15,a4
+.L105:
+	mov.aa	a12,a6
+.L106:
+	lea	a4,[a15]12
+.L104:
+	mov.aa	a6,a12
+	call	Ifx_OneEyeDasFifo_read
+.L103:
+	ld.w	d15,[a15]44
+.L175:
+	ld.h	d0,[a12]
+.L176:
+	add	d15,d0
+.L177:
+	st.w	[a15]44,d15
+.L178:
+	eq	d2,d2,#0
+.L107:
+	j	.L4
+.L4:
+	ret
+.L87:
+	
+__Ifx_OneEyeDasPipe_Read_function_end:
+	.size	Ifx_OneEyeDasPipe_Read,__Ifx_OneEyeDasPipe_Read_function_end-Ifx_OneEyeDasPipe_Read
+.L51:
+	; End of function
+	
+	.sdecl	'.text.ifx_oneeyedaspipe.Ifx_OneEyeDasPipe_ClearRx',code,cluster('Ifx_OneEyeDasPipe_ClearRx')
+	.sect	'.text.ifx_oneeyedaspipe.Ifx_OneEyeDasPipe_ClearRx'
+	.align	2
+	
+	.global	Ifx_OneEyeDasPipe_ClearRx
+; Function Ifx_OneEyeDasPipe_ClearRx
+.L14:
+Ifx_OneEyeDasPipe_ClearRx:	.type	func
+	lea	a4,[a4]12
+.L108:
+	call	Ifx_OneEyeDasFifo_clearRx
+.L183:
+	ret
+.L93:
+	
+__Ifx_OneEyeDasPipe_ClearRx_function_end:
+	.size	Ifx_OneEyeDasPipe_ClearRx,__Ifx_OneEyeDasPipe_ClearRx_function_end-Ifx_OneEyeDasPipe_ClearRx
+.L56:
+	; End of function
+	
+	.sdecl	'.text.ifx_oneeyedaspipe.Ifx_OneEyeDasPipe_ClearTx',code,cluster('Ifx_OneEyeDasPipe_ClearTx')
+	.sect	'.text.ifx_oneeyedaspipe.Ifx_OneEyeDasPipe_ClearTx'
+	.align	2
+	
+	.global	Ifx_OneEyeDasPipe_ClearTx
+; Function Ifx_OneEyeDasPipe_ClearTx
+.L16:
+Ifx_OneEyeDasPipe_ClearTx:	.type	func
+	lea	a4,[a4]12
+.L109:
+	call	Ifx_OneEyeDasFifo_clearTx
+.L188:
+	ret
+.L95:
+	
+__Ifx_OneEyeDasPipe_ClearTx_function_end:
+	.size	Ifx_OneEyeDasPipe_ClearTx,__Ifx_OneEyeDasPipe_ClearTx_function_end-Ifx_OneEyeDasPipe_ClearTx
+.L61:
+	; End of function
+	
+	.sdecl	'.text.ifx_oneeyedaspipe.Ifx_OneEyeDasPipe_initConfig',code,cluster('Ifx_OneEyeDasPipe_initConfig')
+	.sect	'.text.ifx_oneeyedaspipe.Ifx_OneEyeDasPipe_initConfig'
+	.align	2
+	
+	.global	Ifx_OneEyeDasPipe_initConfig
+; Function Ifx_OneEyeDasPipe_initConfig
+.L18:
+Ifx_OneEyeDasPipe_initConfig:	.type	func
+	mov	d15,#512
+.L128:
+	st.w	[a4],d15
+.L129:
+	ret
+.L62:
+	
+__Ifx_OneEyeDasPipe_initConfig_function_end:
+	.size	Ifx_OneEyeDasPipe_initConfig,__Ifx_OneEyeDasPipe_initConfig_function_end-Ifx_OneEyeDasPipe_initConfig
+.L31:
+	; End of function
+	
+	.sdecl	'.text.ifx_oneeyedaspipe.Ifx_OneEyeDasPipe_init',code,cluster('Ifx_OneEyeDasPipe_init')
+	.sect	'.text.ifx_oneeyedaspipe.Ifx_OneEyeDasPipe_init'
+	.align	2
+	
+	.global	Ifx_OneEyeDasPipe_init
+; Function Ifx_OneEyeDasPipe_init
+.L20:
+Ifx_OneEyeDasPipe_init:	.type	func
+	sub.a	a10,#8
+.L110:
+	mov.aa	a15,a4
+.L113:
+	mov.aa	a12,a5
+.L114:
+	lea	a4,[a10]0
+.L112:
+	call	Ifx_OneEyeDasFifo_initConfig
+.L111:
+	ld.w	d15,[a12]
+.L134:
+	st.w	[a10],d15
+.L135:
+	lea	a4,[a15]12
+.L136:
+	lea	a5,[a10]0
+	call	Ifx_OneEyeDasFifo_init
+.L137:
+	jne	d2,#0,.L5
+.L138:
+	mov	d2,#0
+.L139:
+	j	.L6
+.L5:
+	movh.a	a5,#@his(.1.str)
+	lea	a5,[a5]@los(.1.str)
+.L140:
+	mov	d4,#8
+	mov.aa	a4,a15
+.L115:
+	call	strncpy
+.L116:
+	mov	d2,#1
+.L141:
+	j	.L7
+.L7:
+.L6:
+	ret
+.L66:
+	
+__Ifx_OneEyeDasPipe_init_function_end:
+	.size	Ifx_OneEyeDasPipe_init,__Ifx_OneEyeDasPipe_init_function_end-Ifx_OneEyeDasPipe_init
+.L36:
+	; End of function
+	
+	.sdecl	'.text.ifx_oneeyedaspipe.Ifx_OneEyeDasPipe_stdIfDPipeInit',code,cluster('Ifx_OneEyeDasPipe_stdIfDPipeInit')
+	.sect	'.text.ifx_oneeyedaspipe.Ifx_OneEyeDasPipe_stdIfDPipeInit'
+	.align	2
+	
+	.global	Ifx_OneEyeDasPipe_stdIfDPipeInit
+; Function Ifx_OneEyeDasPipe_stdIfDPipeInit
+.L22:
+Ifx_OneEyeDasPipe_stdIfDPipeInit:	.type	func
+	mov.aa	a15,a4
+.L118:
+	mov.aa	a12,a5
+.L119:
+	mov	d4,#0
+.L146:
+	mov	d5,#76
+	mov.aa	a4,a15
+	call	memset
+.L117:
+	st.a	[a15],a12
+.L147:
+	movh.a	a2,#@his(Ifx_OneEyeDasPipe_Write)
+	lea	a2,[a2]@los(Ifx_OneEyeDasPipe_Write)
+.L148:
+	st.a	[a15]8,a2
+.L149:
+	movh.a	a2,#@his(Ifx_OneEyeDasPipe_Read)
+	lea	a2,[a2]@los(Ifx_OneEyeDasPipe_Read)
+.L150:
+	st.a	[a15]12,a2
+.L151:
+	movh.a	a2,#@his(Ifx_OneEyeDasPipe_ClearTx)
+	lea	a2,[a2]@los(Ifx_OneEyeDasPipe_ClearTx)
+.L152:
+	st.a	[a15]44,a2
+.L153:
+	movh.a	a2,#@his(Ifx_OneEyeDasPipe_ClearRx)
+	lea	a2,[a2]@los(Ifx_OneEyeDasPipe_ClearRx)
+.L154:
+	st.a	[a15]48,a2
+.L155:
+	mov	d2,#1
+.L156:
+	j	.L8
+.L8:
+	ret
+.L72:
+	
+__Ifx_OneEyeDasPipe_stdIfDPipeInit_function_end:
+	.size	Ifx_OneEyeDasPipe_stdIfDPipeInit,__Ifx_OneEyeDasPipe_stdIfDPipeInit_function_end-Ifx_OneEyeDasPipe_stdIfDPipeInit
+.L41:
+	; End of function
+	
+	.sdecl	'.rodata.ifx_oneeyedaspipe..1.str',data,rom
+	.sect	'.rodata.ifx_oneeyedaspipe..1.str'
+.1.str:	.type	object
+	.size	.1.str,9
+	.byte	49,101,121,101,80,105,112,101
+	.space	1
+	.calls	'__INDIRECT__','Ifx_OneEyeDasPipe_Write'
+	.calls	'__INDIRECT__','Ifx_OneEyeDasPipe_Read'
+	.calls	'__INDIRECT__','Ifx_OneEyeDasPipe_ClearRx'
+	.calls	'__INDIRECT__','Ifx_OneEyeDasPipe_ClearTx'
+	.calls	'Ifx_OneEyeDasPipe_Write','Ifx_OneEyeDasFifo_write'
+	.calls	'Ifx_OneEyeDasPipe_Read','Ifx_OneEyeDasFifo_read'
+	.calls	'Ifx_OneEyeDasPipe_ClearRx','Ifx_OneEyeDasFifo_clearRx'
+	.calls	'Ifx_OneEyeDasPipe_ClearTx','Ifx_OneEyeDasFifo_clearTx'
+	.calls	'Ifx_OneEyeDasPipe_init','Ifx_OneEyeDasFifo_initConfig'
+	.calls	'Ifx_OneEyeDasPipe_init','Ifx_OneEyeDasFifo_init'
+	.calls	'Ifx_OneEyeDasPipe_init','strncpy'
+	.calls	'Ifx_OneEyeDasPipe_stdIfDPipeInit','memset'
+	.calls	'Ifx_OneEyeDasPipe_Write','',0
+	.calls	'Ifx_OneEyeDasPipe_Read','',0
+	.calls	'Ifx_OneEyeDasPipe_ClearRx','',0
+	.calls	'Ifx_OneEyeDasPipe_ClearTx','',0
+	.calls	'Ifx_OneEyeDasPipe_initConfig','',0
+	.calls	'Ifx_OneEyeDasPipe_init','',8
+	.extern	Ifx_OneEyeDasFifo_write
+	.extern	Ifx_OneEyeDasFifo_read
+	.extern	Ifx_OneEyeDasFifo_clearRx
+	.extern	Ifx_OneEyeDasFifo_clearTx
+	.extern	Ifx_OneEyeDasFifo_initConfig
+	.extern	Ifx_OneEyeDasFifo_init
+	.extern	strncpy
+	.extern	memset
+	.extern	__INDIRECT__
+	.calls	'Ifx_OneEyeDasPipe_stdIfDPipeInit','',0
+	.sdecl	'.debug_info',debug
+	.sect	'.debug_info'
+.L24:
+	.word	3564
+	.half	3
+	.word	.L25
+	.byte	4
+.L23:
+	.byte	1
+	.byte	'../Libraries/OneEye/ifx_oneeyedaspipe.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Proyectos\\20220123 Control Motores\\3-Software\\Desarrollo\\Led1\\TriCore Debug (TASKING)\\',0,12
+	.byte	1
+	.word	.L26
+.L84:
+	.byte	2
+	.byte	'short int',0,2,5,2
+	.byte	'unsigned short int',0,2,7,3
+	.word	238
+	.byte	2
+	.byte	'unsigned long int',0,4,7,3
+	.word	265
+	.byte	3
+	.word	238
+.L65:
+	.byte	2
+	.byte	'unsigned char',0,1,8,3
+	.word	296
+	.byte	4,1,53,9,4,5
+	.byte	'active',0,2
+	.word	260
+	.byte	10,6,2,35,0,5
+	.byte	'ready',0,4
+	.word	286
+	.byte	10,12,2,35,0,5
+	.byte	'writepos',0,2
+	.word	291
+	.byte	10,2,2,35,2,5
+	.byte	'dummy',0,1
+	.word	313
+	.byte	2,0,2,35,3,0,3
+	.word	265
+	.byte	6,1,51,9,4,7
+	.byte	'data',0
+	.word	318
+	.byte	4,2,35,0,7
+	.byte	'value',0
+	.word	396
+	.byte	4,2,35,0,0,3
+	.word	401
+	.byte	2
+	.byte	'char',0,1,6,8
+	.word	441
+	.byte	3
+	.word	265
+	.byte	4,1,69,9,12,7
+	.byte	'control',0
+	.word	436
+	.byte	4,2,35,0,7
+	.byte	'data',0
+	.word	449
+	.byte	4,2,35,4,7
+	.byte	'readPos',0
+	.word	454
+	.byte	4,2,35,8,0,3
+	.word	265
+	.byte	3
+	.word	265
+	.byte	4,1,63,9,8,7
+	.byte	'rxBeg',0
+	.word	513
+	.byte	4,2,35,0,7
+	.byte	'rxEnd',0
+	.word	518
+	.byte	4,2,35,4,0,3
+	.word	523
+	.byte	4,1,76,9,12,7
+	.byte	'control',0
+	.word	559
+	.byte	8,2,35,0,7
+	.byte	'data',0
+	.word	449
+	.byte	4,2,35,8,0,4,1,82,9,28,7
+	.byte	'tx',0
+	.word	459
+	.byte	12,2,35,0,7
+	.byte	'rx',0
+	.word	564
+	.byte	12,2,35,12,7
+	.byte	'size',0
+	.word	265
+	.byte	4,2,35,24,0,8
+	.word	601
+.L82:
+	.byte	2
+	.byte	'long long int',0,8,5,9
+	.byte	'Ifx_OneEyeDasFifo_write',0,1,94,11
+	.word	225
+	.byte	1,1,1,1,10
+	.byte	'fifo',0,1,94,56
+	.word	645
+	.byte	10
+	.byte	'src',0,1,94,69
+	.word	449
+	.byte	10
+	.byte	'count',0,1,94,84
+	.word	225
+	.byte	10
+	.byte	'timeout',0,1,94,104
+	.word	650
+	.byte	0
+.L80:
+	.byte	8
+	.word	225
+	.byte	9
+	.byte	'Ifx_OneEyeDasFifo_read',0,1,95,11
+	.word	225
+	.byte	1,1,1,1,10
+	.byte	'fifo',0,1,95,55
+	.word	645
+	.byte	10
+	.byte	'dst',0,1,95,68
+	.word	449
+	.byte	10
+	.byte	'count',0,1,95,85
+	.word	759
+	.byte	10
+	.byte	'timeout',0,1,95,105
+	.word	650
+	.byte	0,11
+	.byte	'Ifx_OneEyeDasFifo_clearRx',0,1,96,6,1,1,1,1,10
+	.byte	'fifo',0,1,96,53
+	.word	645
+	.byte	0,11
+	.byte	'Ifx_OneEyeDasFifo_clearTx',0,1,97,6,1,1,1,1,10
+	.byte	'fifo',0,1,97,53
+	.word	645
+	.byte	0
+.L70:
+	.byte	4,1,89,9,4,7
+	.byte	'size',0
+	.word	265
+	.byte	4,2,35,0,0,8
+	.word	951
+	.byte	11
+	.byte	'Ifx_OneEyeDasFifo_initConfig',0,1,99,6,1,1,1,1,10
+	.byte	'config',0,1,99,62
+	.word	971
+	.byte	0,9
+	.byte	'Ifx_OneEyeDasFifo_init',0,1,100,9
+	.word	296
+	.byte	1,1,1,1,10
+	.byte	'fifo',0,1,100,53
+	.word	645
+	.byte	10
+	.byte	'config',0,1,100,86
+	.word	971
+	.byte	0,4,2,53,9,4,7
+	.byte	'size',0
+	.word	265
+	.byte	4,2,35,0,0
+.L63:
+	.byte	8
+	.word	1093
+	.byte	2
+	.byte	'unsigned long long int',0,8,7,4,2,62,9,4,7
+	.byte	'major',0
+	.word	296
+	.byte	1,2,35,0,7
+	.byte	'minor',0
+	.word	296
+	.byte	1,2,35,1,7
+	.byte	'patch',0
+	.word	296
+	.byte	1,2,35,2,7
+	.byte	'dummy',0
+	.word	296
+	.byte	1,2,35,3,0,4,2,59,9,12,7
+	.byte	'marker',0
+	.word	1118
+	.byte	8,2,35,0,7
+	.byte	'Version',0
+	.word	1144
+	.byte	4,2,35,8,0,4,2,72,9,60,7
+	.byte	'oneEyeDebugPipe',0
+	.word	1210
+	.byte	12,2,35,0,7
+	.byte	'fifo',0
+	.word	601
+	.byte	28,2,35,12,7
+	.byte	'writeCount',0
+	.word	265
+	.byte	4,2,35,40,7
+	.byte	'readCount',0
+	.word	265
+	.byte	4,2,35,44,7
+	.byte	'txTimestamp',0
+	.word	650
+	.byte	8,2,35,48,7
+	.byte	'isError',0
+	.word	296
+	.byte	1,2,35,56,0
+.L67:
+	.byte	8
+	.word	1249
+	.byte	12
+	.byte	'void',0
+.L78:
+	.byte	8
+	.word	1376
+	.byte	13
+	.byte	'IfxStdIf_InterfaceDriver',0,4,115,15
+	.word	1382
+	.byte	8
+	.word	225
+	.byte	14
+	.word	296
+	.byte	1,1,15
+	.word	1382
+	.byte	15
+	.word	1382
+	.byte	15
+	.word	1420
+	.byte	15
+	.word	650
+	.byte	0,8
+	.word	1425
+	.byte	13
+	.byte	'IfxStdIf_DPipe_Write',0,3,89,19
+	.word	1453
+	.byte	13
+	.byte	'IfxStdIf_DPipe_Read',0,3,104,19
+	.word	1453
+	.byte	2
+	.byte	'long int',0,4,5,14
+	.word	1515
+	.byte	1,1,15
+	.word	1382
+	.byte	0,8
+	.word	1527
+	.byte	13
+	.byte	'IfxStdIf_DPipe_GetReadCount',0,3,112,18
+	.word	1540
+	.byte	3
+	.word	296
+	.byte	8
+	.word	1581
+	.byte	14
+	.word	1586
+	.byte	1,1,15
+	.word	1382
+	.byte	0,8
+	.word	1591
+	.byte	13
+	.byte	'IfxStdIf_DPipe_GetReadEvent',0,3,120,36
+	.word	1604
+	.byte	13
+	.byte	'IfxStdIf_DPipe_GetWriteCount',0,3,144,1,18
+	.word	1540
+	.byte	8
+	.word	1591
+	.byte	13
+	.byte	'IfxStdIf_DPipe_GetWriteEvent',0,3,152,1,37
+	.word	1683
+	.byte	14
+	.word	296
+	.byte	1,1,15
+	.word	1382
+	.byte	15
+	.word	225
+	.byte	15
+	.word	650
+	.byte	0,8
+	.word	1726
+	.byte	13
+	.byte	'IfxStdIf_DPipe_CanReadCount',0,3,163,1,19
+	.word	1749
+	.byte	13
+	.byte	'IfxStdIf_DPipe_CanWriteCount',0,3,174,1,19
+	.word	1749
+	.byte	14
+	.word	296
+	.byte	1,1,15
+	.word	1382
+	.byte	15
+	.word	650
+	.byte	0,8
+	.word	1829
+	.byte	13
+	.byte	'IfxStdIf_DPipe_FlushTx',0,3,183,1,19
+	.word	1847
+	.byte	16,1,1,15
+	.word	1382
+	.byte	0,8
+	.word	1884
+	.byte	13
+	.byte	'IfxStdIf_DPipe_ClearTx',0,3,197,1,16
+	.word	1893
+	.byte	13
+	.byte	'IfxStdIf_DPipe_ClearRx',0,3,190,1,16
+	.word	1893
+	.byte	13
+	.byte	'IfxStdIf_DPipe_OnReceive',0,3,205,1,16
+	.word	1893
+	.byte	13
+	.byte	'IfxStdIf_DPipe_OnTransmit',0,3,212,1,16
+	.word	1893
+	.byte	13
+	.byte	'IfxStdIf_DPipe_OnError',0,3,219,1,16
+	.word	1893
+	.byte	14
+	.word	265
+	.byte	1,1,15
+	.word	1382
+	.byte	0,8
+	.word	2063
+	.byte	13
+	.byte	'IfxStdIf_DPipe_GetSendCount',0,3,128,1,18
+	.word	2076
+	.byte	14
+	.word	650
+	.byte	1,1,15
+	.word	1382
+	.byte	0,8
+	.word	2118
+	.byte	13
+	.byte	'IfxStdIf_DPipe_GetTxTimeStamp',0,3,136,1,24
+	.word	2131
+	.byte	13
+	.byte	'IfxStdIf_DPipe_ResetSendCount',0,3,226,1,16
+	.word	1893
+	.byte	17
+	.byte	'IfxStdIf_DPipe_',0,3,230,1,8,76,7
+	.byte	'driver',0
+	.word	1387
+	.byte	4,2,35,0,7
+	.byte	'txDisabled',0
+	.word	296
+	.byte	1,2,35,4,7
+	.byte	'write',0
+	.word	1458
+	.byte	4,2,35,8,7
+	.byte	'read',0
+	.word	1487
+	.byte	4,2,35,12,7
+	.byte	'getReadCount',0
+	.word	1545
+	.byte	4,2,35,16,7
+	.byte	'getReadEvent',0
+	.word	1609
+	.byte	4,2,35,20,7
+	.byte	'getWriteCount',0
+	.word	1645
+	.byte	4,2,35,24,7
+	.byte	'getWriteEvent',0
+	.word	1688
+	.byte	4,2,35,28,7
+	.byte	'canReadCount',0
+	.word	1754
+	.byte	4,2,35,32,7
+	.byte	'canWriteCount',0
+	.word	1791
+	.byte	4,2,35,36,7
+	.byte	'flushTx',0
+	.word	1852
+	.byte	4,2,35,40,7
+	.byte	'clearTx',0
+	.word	1898
+	.byte	4,2,35,44,7
+	.byte	'clearRx',0
+	.word	1930
+	.byte	4,2,35,48,7
+	.byte	'onReceive',0
+	.word	1962
+	.byte	4,2,35,52,7
+	.byte	'onTransmit',0
+	.word	1996
+	.byte	4,2,35,56,7
+	.byte	'onError',0
+	.word	2031
+	.byte	4,2,35,60,7
+	.byte	'getSendCount',0
+	.word	2081
+	.byte	4,2,35,64,7
+	.byte	'getTxTimeStamp',0
+	.word	2136
+	.byte	4,2,35,68,7
+	.byte	'resetSendCount',0
+	.word	2175
+	.byte	4,2,35,72,0
+.L73:
+	.byte	8
+	.word	2214
+	.byte	8
+	.word	1376
+	.byte	8
+	.word	1425
+	.byte	8
+	.word	1425
+	.byte	8
+	.word	1527
+	.byte	8
+	.word	1591
+	.byte	8
+	.word	1527
+	.byte	8
+	.word	1591
+	.byte	8
+	.word	1726
+	.byte	8
+	.word	1726
+	.byte	8
+	.word	1829
+	.byte	8
+	.word	1884
+	.byte	8
+	.word	1884
+	.byte	8
+	.word	1884
+	.byte	8
+	.word	1884
+	.byte	8
+	.word	1884
+	.byte	8
+	.word	2063
+	.byte	8
+	.word	2118
+	.byte	8
+	.word	1884
+	.byte	18
+	.word	449
+	.byte	19
+	.word	441
+	.byte	8
+	.word	2714
+	.byte	18
+	.word	2719
+	.byte	2
+	.byte	'unsigned int',0,4,7,9
+	.byte	'strncpy',0,5,40,17
+	.word	449
+	.byte	1,1,1,1,20,5,40,33
+	.word	2709
+	.byte	20,5,40,56
+	.word	2724
+	.byte	20,5,40,68
+	.word	2729
+	.byte	0,2
+	.byte	'int',0,4,5,9
+	.byte	'memset',0,5,56,17
+	.word	1382
+	.byte	1,1,1,1,20,5,56,33
+	.word	1382
+	.byte	20,5,56,36
+	.word	2790
+	.byte	20,5,56,41
+	.word	2729
+	.byte	0,21
+	.byte	'__INDIRECT__',0,6,1,1,1,1,1,13
+	.byte	'__wchar_t',0,6,1,1
+	.word	225
+	.byte	13
+	.byte	'__size_t',0,6,1,1
+	.word	2729
+	.byte	13
+	.byte	'__ptrdiff_t',0,6,1,1
+	.word	2790
+	.byte	22,1,8
+	.word	2916
+	.byte	13
+	.byte	'__codeptr',0,6,1,1
+	.word	2918
+	.byte	13
+	.byte	'boolean',0,7,104,29
+	.word	296
+	.byte	13
+	.byte	'uint8',0,7,108,29
+	.word	296
+	.byte	13
+	.byte	'uint16',0,7,112,29
+	.word	238
+	.byte	13
+	.byte	'uint32',0,7,116,29
+	.word	265
+	.byte	13
+	.byte	'uint64',0,7,121,29
+	.word	1118
+	.byte	13
+	.byte	'sint16',0,7,129,1,29
+	.word	225
+	.byte	13
+	.byte	'sint32',0,7,134,1,29
+	.word	1515
+	.byte	13
+	.byte	'sint64',0,7,141,1,29
+	.word	650
+	.byte	2
+	.byte	'float',0,4,4,13
+	.byte	'float32',0,7,170,1,29
+	.word	3064
+	.byte	13
+	.byte	'size_t',0,8,24,25
+	.word	2729
+	.byte	13
+	.byte	'pvoid',0,9,54,28
+	.word	1382
+	.byte	13
+	.byte	'Ifx_TickTime',0,9,76,28
+	.word	650
+	.byte	13
+	.byte	'Ifx_SizeT',0,9,89,16
+	.word	225
+	.byte	13
+	.byte	'IfxStdIf_DPipe',0,3,68,32
+	.word	2214
+	.byte	3
+	.word	296
+	.byte	8
+	.word	3181
+	.byte	13
+	.byte	'IfxStdIf_DPipe_WriteEvent',0,3,70,32
+	.word	3186
+	.byte	13
+	.byte	'IfxStdIf_DPipe_ReadEvent',0,3,71,32
+	.word	3186
+	.byte	13
+	.byte	'Ifx_OneEyeDasFifo_ToOneEyeControl',0,1,61,3
+	.word	401
+	.byte	13
+	.byte	'Ifx_OneEyeDasFifo_FromOneEyeControl',0,1,67,3
+	.word	523
+	.byte	13
+	.byte	'Ifx_OneEyeDasFifo_ToOneEye',0,1,74,3
+	.word	459
+	.byte	13
+	.byte	'Ifx_OneEyeDasFifo_FromOneEye',0,1,80,3
+	.word	564
+	.byte	13
+	.byte	'Ifx_OneEyeDasFifo',0,1,87,3
+	.word	601
+	.byte	13
+	.byte	'Ifx_OneEyeDasFifo_Config',0,1,92,3
+	.word	951
+	.byte	13
+	.byte	'Ifx_OneEyeDasPipe_Config',0,2,56,3
+	.word	1093
+	.byte	13
+	.byte	'Ifx_OneEyeDasPipe_Marker',0,2,69,3
+	.word	1210
+	.byte	13
+	.byte	'Ifx_OneEyeDasPipe',0,2,80,3
+	.word	1249
+	.byte	0
+	.sdecl	'.debug_abbrev',debug
+	.sect	'.debug_abbrev'
+.L25:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,16,6,0,0,2,36,0,3,8,11,15,62,15,0,0,3,53,0,73,19,0,0,4,19,1,58,15
+	.byte	59,15,57,15,11,15,0,0,5,13,0,3,8,11,15,73,19,13,15,12,15,56,9,0,0,6,23,1,58,15,59,15,57,15,11,15,0,0,7
+	.byte	13,0,3,8,73,19,11,15,56,9,0,0,8,15,0,73,19,0,0,9,46,1,3,8,58,15,59,15,57,15,73,19,54,15,39,12,63,12,60
+	.byte	12,0,0,10,5,0,3,8,58,15,59,15,57,15,73,19,0,0,11,46,1,3,8,58,15,59,15,57,15,54,15,39,12,63,12,60,12,0
+	.byte	0,12,59,0,3,8,0,0,13,22,0,3,8,58,15,59,15,57,15,73,19,0,0,14,21,1,73,19,54,15,39,12,0,0,15,5,0,73,19,0
+	.byte	0,16,21,1,54,15,39,12,0,0,17,19,1,3,8,58,15,59,15,57,15,11,15,0,0,18,55,0,73,19,0,0,19,38,0,73,19,0,0
+	.byte	20,5,0,58,15,59,15,57,15,73,19,0,0,21,46,0,3,8,58,15,59,15,57,15,54,15,63,12,60,12,0,0,22,21,0,54,15,0
+	.byte	0,0
+	.sdecl	'.debug_line',debug
+	.sect	'.debug_line'
+.L26:
+	.word	.L121-.L120
+.L120:
+	.half	3
+	.word	.L123-.L122
+.L122:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
+	.byte	'C:\\\\Proyectos\\\\20220123 Control Motores\\\\3-Software\\\\Desarrollo\\\\Led1\\\\Libraries\\\\Service\\\\CpuGeneric\\\\StdIf',0
+	.byte	'C:\\Infineon\\AURIX-Studio-1.10.6\\tools\\Compilers\\Tasking_1.1r8\\ctc\\include\\',0
+	.byte	'C:\\\\Proyectos\\\\20220123 Control Motores\\\\3-Software\\\\Desarrollo\\\\Led1\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Std',0
+	.byte	0
+	.byte	'..\\Libraries\\OneEye\\Ifx_OneEyeDasFifo.h',0,0,0,0
+	.byte	'..\\Libraries\\OneEye\\ifx_oneeyedaspipe.h',0,0,0,0
+	.byte	'IfxStdIf_DPipe.h',0,1,0,0
+	.byte	'IfxStdIf.h',0,1,0,0
+	.byte	'string.h',0,2,0,0
+	.byte	'../Libraries/OneEye/ifx_oneeyedaspipe.c',0,0,0,0
+	.byte	'Platform_Types.h',0,3,0,0
+	.byte	'stddef.h',0,2,0,0
+	.byte	'C:\\\\Proyectos\\\\20220123 Control Motores\\\\3-Software\\\\Desarrollo\\\\Led1\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\Cpu\\Std\\Ifx_Types.h',0
+	.byte	0,0,0,0
+.L123:
+.L121:
+	.sdecl	'.debug_info',debug,cluster('Ifx_OneEyeDasPipe_initConfig')
+	.sect	'.debug_info'
+.L27:
+	.word	308
+	.half	3
+	.word	.L28
+	.byte	4,1
+	.byte	'../Libraries/OneEye/ifx_oneeyedaspipe.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Proyectos\\20220123 Control Motores\\3-Software\\Desarrollo\\Led1\\TriCore Debug (TASKING)\\',0,12
+	.byte	1
+	.word	.L30,.L29
+	.byte	2
+	.word	.L23
+	.byte	3
+	.byte	'Ifx_OneEyeDasPipe_initConfig',0,1,82,6,1,1,1
+	.word	.L18,.L62,.L17
+	.byte	4
+	.byte	'config',0,1,82,62
+	.word	.L63,.L64
+	.byte	5
+	.word	.L18,.L62
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('Ifx_OneEyeDasPipe_initConfig')
+	.sect	'.debug_abbrev'
+.L28:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('Ifx_OneEyeDasPipe_initConfig')
+	.sect	'.debug_line'
+.L29:
+	.word	.L125-.L124
+.L124:
+	.half	3
+	.word	.L127-.L126
+.L126:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../Libraries/OneEye/ifx_oneeyedaspipe.c',0,0,0,0,0
+.L127:
+	.byte	5,17,7,0,5,2
+	.word	.L18
+	.byte	3,211,0,1,5,15,9
+	.half	.L128-.L18
+	.byte	1,5,1,9
+	.half	.L129-.L128
+	.byte	3,1,1,7,9
+	.half	.L31-.L129
+	.byte	0,1,1
+.L125:
+	.sdecl	'.debug_ranges',debug,cluster('Ifx_OneEyeDasPipe_initConfig')
+	.sect	'.debug_ranges'
+.L30:
+	.word	-1,.L18,0,.L31-.L18,0,0
+	.sdecl	'.debug_info',debug,cluster('Ifx_OneEyeDasPipe_init')
+	.sect	'.debug_info'
+.L32:
+	.word	345
+	.half	3
+	.word	.L33
+	.byte	4,1
+	.byte	'../Libraries/OneEye/ifx_oneeyedaspipe.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Proyectos\\20220123 Control Motores\\3-Software\\Desarrollo\\Led1\\TriCore Debug (TASKING)\\',0,12
+	.byte	1
+	.word	.L35,.L34
+	.byte	2
+	.word	.L23
+	.byte	3
+	.byte	'Ifx_OneEyeDasPipe_init',0,1,88,9
+	.word	.L65
+	.byte	1,1,1
+	.word	.L20,.L66,.L19
+	.byte	4
+	.byte	'dpipe',0,1,88,53
+	.word	.L67,.L68
+	.byte	4
+	.byte	'config',0,1,88,87
+	.word	.L63,.L69
+	.byte	5
+	.word	.L20,.L66
+	.byte	6
+	.byte	'fifoCfg',0,1,90,30
+	.word	.L70,.L71
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('Ifx_OneEyeDasPipe_init')
+	.sect	'.debug_abbrev'
+.L33:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6
+	.byte	52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('Ifx_OneEyeDasPipe_init')
+	.sect	'.debug_line'
+.L34:
+	.word	.L131-.L130
+.L130:
+	.half	3
+	.word	.L133-.L132
+.L132:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../Libraries/OneEye/ifx_oneeyedaspipe.c',0,0,0,0,0
+.L133:
+	.byte	5,9,7,0,5,2
+	.word	.L20
+	.byte	3,215,0,1,5,35,9
+	.half	.L114-.L20
+	.byte	3,3,1,5,26,9
+	.half	.L111-.L114
+	.byte	3,1,1,5,18,9
+	.half	.L134-.L111
+	.byte	1,5,37,9
+	.half	.L135-.L134
+	.byte	3,2,1,5,46,9
+	.half	.L136-.L135
+	.byte	1,5,5,9
+	.half	.L137-.L136
+	.byte	1,5,16,7,9
+	.half	.L138-.L137
+	.byte	3,1,1,5,9,9
+	.half	.L139-.L138
+	.byte	1,5,53,9
+	.half	.L5-.L139
+	.byte	3,4,1,5,79,9
+	.half	.L140-.L5
+	.byte	1,5,12,9
+	.half	.L116-.L140
+	.byte	3,2,1,5,5,9
+	.half	.L141-.L116
+	.byte	1,5,1,9
+	.half	.L6-.L141
+	.byte	3,1,1,7,9
+	.half	.L36-.L6
+	.byte	0,1,1
+.L131:
+	.sdecl	'.debug_ranges',debug,cluster('Ifx_OneEyeDasPipe_init')
+	.sect	'.debug_ranges'
+.L35:
+	.word	-1,.L20,0,.L36-.L20,0,0
+	.sdecl	'.debug_info',debug,cluster('Ifx_OneEyeDasPipe_stdIfDPipeInit')
+	.sect	'.debug_info'
+.L37:
+	.word	333
+	.half	3
+	.word	.L38
+	.byte	4,1
+	.byte	'../Libraries/OneEye/ifx_oneeyedaspipe.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Proyectos\\20220123 Control Motores\\3-Software\\Desarrollo\\Led1\\TriCore Debug (TASKING)\\',0,12
+	.byte	1
+	.word	.L40,.L39
+	.byte	2
+	.word	.L23
+	.byte	3
+	.byte	'Ifx_OneEyeDasPipe_stdIfDPipeInit',0,1,105,9
+	.word	.L65
+	.byte	1,1,1
+	.word	.L22,.L72,.L21
+	.byte	4
+	.byte	'stdif',0,1,105,59
+	.word	.L73,.L74
+	.byte	4
+	.byte	'dpipe',0,1,105,85
+	.word	.L67,.L75
+	.byte	5
+	.word	.L22,.L72
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('Ifx_OneEyeDasPipe_stdIfDPipeInit')
+	.sect	'.debug_abbrev'
+.L38:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('Ifx_OneEyeDasPipe_stdIfDPipeInit')
+	.sect	'.debug_line'
+.L39:
+	.word	.L143-.L142
+.L142:
+	.half	3
+	.word	.L145-.L144
+.L144:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../Libraries/OneEye/ifx_oneeyedaspipe.c',0,0,0,0,0
+.L145:
+	.byte	5,9,7,0,5,2
+	.word	.L22
+	.byte	3,232,0,1,5,19,9
+	.half	.L119-.L22
+	.byte	3,3,1,5,22,9
+	.half	.L146-.L119
+	.byte	1,5,19,9
+	.half	.L117-.L146
+	.byte	3,3,1,5,20,9
+	.half	.L147-.L117
+	.byte	3,1,1,5,18,9
+	.half	.L148-.L147
+	.byte	1,5,19,9
+	.half	.L149-.L148
+	.byte	3,1,1,5,17,9
+	.half	.L150-.L149
+	.byte	1,5,22,9
+	.half	.L151-.L150
+	.byte	3,1,1,5,20,9
+	.half	.L152-.L151
+	.byte	1,5,22,9
+	.half	.L153-.L152
+	.byte	3,1,1,5,20,9
+	.half	.L154-.L153
+	.byte	1,5,12,9
+	.half	.L155-.L154
+	.byte	3,1,1,5,5,9
+	.half	.L156-.L155
+	.byte	1,5,1,9
+	.half	.L8-.L156
+	.byte	3,1,1,7,9
+	.half	.L41-.L8
+	.byte	0,1,1
+.L143:
+	.sdecl	'.debug_ranges',debug,cluster('Ifx_OneEyeDasPipe_stdIfDPipeInit')
+	.sect	'.debug_ranges'
+.L40:
+	.word	-1,.L22,0,.L41-.L22,0,0
+	.sdecl	'.debug_info',debug,cluster('Ifx_OneEyeDasPipe_Write')
+	.sect	'.debug_info'
+.L42:
+	.word	398
+	.half	3
+	.word	.L43
+	.byte	4,1
+	.byte	'../Libraries/OneEye/ifx_oneeyedaspipe.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Proyectos\\20220123 Control Motores\\3-Software\\Desarrollo\\Led1\\TriCore Debug (TASKING)\\',0,12
+	.byte	1
+	.word	.L45,.L44
+	.byte	2
+	.word	.L23
+	.byte	3
+	.byte	'Ifx_OneEyeDasPipe_Write',0,1,48,9
+	.word	.L65
+	.byte	1,1,1
+	.word	.L10,.L76,.L9
+	.byte	4
+	.byte	'dPipe',0,1,48,54
+	.word	.L67,.L77
+	.byte	4
+	.byte	'data',0,1,48,67
+	.word	.L78,.L79
+	.byte	4
+	.byte	'count',0,1,48,84
+	.word	.L80,.L81
+	.byte	4
+	.byte	'timeout',0,1,48,104
+	.word	.L82,.L83
+	.byte	5
+	.word	.L10,.L76
+	.byte	6
+	.byte	'left',0,1,51,15
+	.word	.L84,.L85
+	.byte	6
+	.byte	'result',0,1,52,13
+	.word	.L65,.L86
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('Ifx_OneEyeDasPipe_Write')
+	.sect	'.debug_abbrev'
+.L43:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6
+	.byte	52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('Ifx_OneEyeDasPipe_Write')
+	.sect	'.debug_line'
+.L44:
+	.word	.L158-.L157
+.L157:
+	.half	3
+	.word	.L160-.L159
+.L159:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../Libraries/OneEye/ifx_oneeyedaspipe.c',0,0,0,0,0
+.L160:
+	.byte	5,9,7,0,5,2
+	.word	.L10
+	.byte	3,47,1,5,20,9
+	.half	.L161-.L10
+	.byte	3,4,1,5,9,9
+	.half	.L102-.L161
+	.byte	3,1,1,5,5,9
+	.half	.L162-.L102
+	.byte	1,5,46,7,9
+	.half	.L163-.L162
+	.byte	3,2,1,5,60,9
+	.half	.L98-.L163
+	.byte	1,5,68,9
+	.half	.L99-.L98
+	.byte	1,5,34,9
+	.half	.L97-.L99
+	.byte	3,1,1,5,51,9
+	.half	.L164-.L97
+	.byte	1,5,58,9
+	.half	.L165-.L164
+	.byte	1,5,48,9
+	.half	.L166-.L165
+	.byte	1,5,27,9
+	.half	.L167-.L166
+	.byte	1,5,10,9
+	.half	.L168-.L167
+	.byte	3,1,1,5,16,9
+	.half	.L169-.L168
+	.byte	1,5,23,9
+	.half	.L170-.L169
+	.byte	3,1,1,5,5,9
+	.half	.L2-.L170
+	.byte	3,3,1,5,1,9
+	.half	.L3-.L2
+	.byte	3,2,1,7,9
+	.half	.L46-.L3
+	.byte	0,1,1
+.L158:
+	.sdecl	'.debug_ranges',debug,cluster('Ifx_OneEyeDasPipe_Write')
+	.sect	'.debug_ranges'
+.L45:
+	.word	-1,.L10,0,.L46-.L10,0,0
+	.sdecl	'.debug_info',debug,cluster('Ifx_OneEyeDasPipe_Read')
+	.sect	'.debug_info'
+.L47:
+	.word	378
+	.half	3
+	.word	.L48
+	.byte	4,1
+	.byte	'../Libraries/OneEye/ifx_oneeyedaspipe.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Proyectos\\20220123 Control Motores\\3-Software\\Desarrollo\\Led1\\TriCore Debug (TASKING)\\',0,12
+	.byte	1
+	.word	.L50,.L49
+	.byte	2
+	.word	.L23
+	.byte	3
+	.byte	'Ifx_OneEyeDasPipe_Read',0,1,65,9
+	.word	.L65
+	.byte	1,1,1
+	.word	.L12,.L87,.L11
+	.byte	4
+	.byte	'dPipe',0,1,65,53
+	.word	.L67,.L88
+	.byte	4
+	.byte	'data',0,1,65,66
+	.word	.L78,.L89
+	.byte	4
+	.byte	'count',0,1,65,83
+	.word	.L80,.L90
+	.byte	4
+	.byte	'timeout',0,1,65,103
+	.word	.L82,.L91
+	.byte	5
+	.word	.L12,.L87
+	.byte	6
+	.byte	'left',0,1,67,15
+	.word	.L84,.L92
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('Ifx_OneEyeDasPipe_Read')
+	.sect	'.debug_abbrev'
+.L48:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6
+	.byte	52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('Ifx_OneEyeDasPipe_Read')
+	.sect	'.debug_line'
+.L49:
+	.word	.L172-.L171
+.L171:
+	.half	3
+	.word	.L174-.L173
+.L173:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../Libraries/OneEye/ifx_oneeyedaspipe.c',0,0,0,0,0
+.L174:
+	.byte	5,9,7,0,5,2
+	.word	.L12
+	.byte	3,192,0,1,5,51,9
+	.half	.L106-.L12
+	.byte	3,2,1,5,72,9
+	.half	.L104-.L106
+	.byte	1,5,29,9
+	.half	.L103-.L104
+	.byte	3,1,1,5,44,9
+	.half	.L175-.L103
+	.byte	1,5,42,9
+	.half	.L176-.L175
+	.byte	1,5,22,9
+	.half	.L177-.L176
+	.byte	1,5,17,9
+	.half	.L178-.L177
+	.byte	3,1,1,5,5,9
+	.half	.L107-.L178
+	.byte	1,5,1,9
+	.half	.L4-.L107
+	.byte	3,1,1,7,9
+	.half	.L51-.L4
+	.byte	0,1,1
+.L172:
+	.sdecl	'.debug_ranges',debug,cluster('Ifx_OneEyeDasPipe_Read')
+	.sect	'.debug_ranges'
+.L50:
+	.word	-1,.L12,0,.L51-.L12,0,0
+	.sdecl	'.debug_info',debug,cluster('Ifx_OneEyeDasPipe_ClearRx')
+	.sect	'.debug_info'
+.L52:
+	.word	304
+	.half	3
+	.word	.L53
+	.byte	4,1
+	.byte	'../Libraries/OneEye/ifx_oneeyedaspipe.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Proyectos\\20220123 Control Motores\\3-Software\\Desarrollo\\Led1\\TriCore Debug (TASKING)\\',0,12
+	.byte	1
+	.word	.L55,.L54
+	.byte	2
+	.word	.L23
+	.byte	3
+	.byte	'Ifx_OneEyeDasPipe_ClearRx',0,1,72,6,1,1,1
+	.word	.L14,.L93,.L13
+	.byte	4
+	.byte	'dPipe',0,1,72,53
+	.word	.L67,.L94
+	.byte	5
+	.word	.L14,.L93
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('Ifx_OneEyeDasPipe_ClearRx')
+	.sect	'.debug_abbrev'
+.L53:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('Ifx_OneEyeDasPipe_ClearRx')
+	.sect	'.debug_line'
+.L54:
+	.word	.L180-.L179
+.L179:
+	.half	3
+	.word	.L182-.L181
+.L181:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../Libraries/OneEye/ifx_oneeyedaspipe.c',0,0,0,0,0
+.L182:
+	.byte	5,37,7,0,5,2
+	.word	.L14
+	.byte	3,201,0,1,5,1,9
+	.half	.L183-.L14
+	.byte	3,1,1,7,9
+	.half	.L56-.L183
+	.byte	0,1,1
+.L180:
+	.sdecl	'.debug_ranges',debug,cluster('Ifx_OneEyeDasPipe_ClearRx')
+	.sect	'.debug_ranges'
+.L55:
+	.word	-1,.L14,0,.L56-.L14,0,0
+	.sdecl	'.debug_info',debug,cluster('Ifx_OneEyeDasPipe_ClearTx')
+	.sect	'.debug_info'
+.L57:
+	.word	304
+	.half	3
+	.word	.L58
+	.byte	4,1
+	.byte	'../Libraries/OneEye/ifx_oneeyedaspipe.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Proyectos\\20220123 Control Motores\\3-Software\\Desarrollo\\Led1\\TriCore Debug (TASKING)\\',0,12
+	.byte	1
+	.word	.L60,.L59
+	.byte	2
+	.word	.L23
+	.byte	3
+	.byte	'Ifx_OneEyeDasPipe_ClearTx',0,1,77,6,1,1,1
+	.word	.L16,.L95,.L15
+	.byte	4
+	.byte	'dPipe',0,1,77,53
+	.word	.L67,.L96
+	.byte	5
+	.word	.L16,.L95
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('Ifx_OneEyeDasPipe_ClearTx')
+	.sect	'.debug_abbrev'
+.L58:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('Ifx_OneEyeDasPipe_ClearTx')
+	.sect	'.debug_line'
+.L59:
+	.word	.L185-.L184
+.L184:
+	.half	3
+	.word	.L187-.L186
+.L186:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../Libraries/OneEye/ifx_oneeyedaspipe.c',0,0,0,0,0
+.L187:
+	.byte	5,37,7,0,5,2
+	.word	.L16
+	.byte	3,206,0,1,5,1,9
+	.half	.L188-.L16
+	.byte	3,1,1,7,9
+	.half	.L61-.L188
+	.byte	0,1,1
+.L185:
+	.sdecl	'.debug_ranges',debug,cluster('Ifx_OneEyeDasPipe_ClearTx')
+	.sect	'.debug_ranges'
+.L60:
+	.word	-1,.L16,0,.L61-.L16,0,0
+	.sdecl	'.debug_loc',debug,cluster('Ifx_OneEyeDasPipe_ClearRx')
+	.sect	'.debug_loc'
+.L13:
+	.word	-1,.L14,0,.L93-.L14
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L94:
+	.word	-1,.L14,0,.L108-.L14
+	.half	1
+	.byte	100
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('Ifx_OneEyeDasPipe_ClearTx')
+	.sect	'.debug_loc'
+.L15:
+	.word	-1,.L16,0,.L95-.L16
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L96:
+	.word	-1,.L16,0,.L109-.L16
+	.half	1
+	.byte	100
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('Ifx_OneEyeDasPipe_Read')
+	.sect	'.debug_loc'
+.L11:
+	.word	-1,.L12,0,.L87-.L12
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L90:
+	.word	-1,.L12,0,.L103-.L12
+	.half	1
+	.byte	102
+	.word	.L106-.L12,.L87-.L12
+	.half	1
+	.byte	108
+	.word	0,0
+.L88:
+	.word	-1,.L12,0,.L104-.L12
+	.half	1
+	.byte	100
+	.word	.L105-.L12,.L87-.L12
+	.half	1
+	.byte	111
+	.word	0,0
+.L89:
+	.word	-1,.L12,0,.L103-.L12
+	.half	1
+	.byte	101
+	.word	0,0
+.L92:
+	.word	-1,.L12,.L103-.L12,.L107-.L12
+	.half	1
+	.byte	82
+	.word	0,0
+.L91:
+	.word	-1,.L12,0,.L103-.L12
+	.half	2
+	.byte	144,34
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('Ifx_OneEyeDasPipe_Write')
+	.sect	'.debug_loc'
+.L9:
+	.word	-1,.L10,0,.L76-.L10
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L81:
+	.word	-1,.L10,0,.L97-.L10
+	.half	1
+	.byte	102
+	.word	.L101-.L10,.L76-.L10
+	.half	1
+	.byte	108
+	.word	0,0
+.L77:
+	.word	-1,.L10,0,.L98-.L10
+	.half	1
+	.byte	100
+	.word	.L100-.L10,.L76-.L10
+	.half	1
+	.byte	111
+	.word	0,0
+.L79:
+	.word	-1,.L10,0,.L97-.L10
+	.half	1
+	.byte	101
+	.word	0,0
+.L85:
+	.word	-1,.L10,.L97-.L10,.L2-.L10
+	.half	1
+	.byte	82
+	.word	0,0
+.L86:
+	.word	-1,.L10,.L102-.L10,.L97-.L10
+	.half	1
+	.byte	82
+	.word	.L2-.L10,.L76-.L10
+	.half	1
+	.byte	82
+	.word	0,0
+.L83:
+	.word	-1,.L10,0,.L99-.L10
+	.half	2
+	.byte	144,34
+	.word	.L99-.L10,.L97-.L10
+	.half	2
+	.byte	144,35
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('Ifx_OneEyeDasPipe_init')
+	.sect	'.debug_loc'
+.L19:
+	.word	-1,.L20,0,.L110-.L20
+	.half	2
+	.byte	138,0
+	.word	.L110-.L20,.L66-.L20
+	.half	2
+	.byte	138,8
+	.word	.L66-.L20,.L66-.L20
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L69:
+	.word	-1,.L20,0,.L111-.L20
+	.half	1
+	.byte	101
+	.word	.L114-.L20,.L66-.L20
+	.half	1
+	.byte	108
+	.word	0,0
+.L68:
+	.word	-1,.L20,0,.L112-.L20
+	.half	1
+	.byte	100
+	.word	.L113-.L20,.L66-.L20
+	.half	1
+	.byte	111
+	.word	.L115-.L20,.L116-.L20
+	.half	1
+	.byte	100
+	.word	0,0
+.L71:
+	.word	-1,.L20,0,.L66-.L20
+	.half	2
+	.byte	145,120
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('Ifx_OneEyeDasPipe_initConfig')
+	.sect	'.debug_loc'
+.L17:
+	.word	-1,.L18,0,.L62-.L18
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L64:
+	.word	-1,.L18,0,.L62-.L18
+	.half	1
+	.byte	100
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('Ifx_OneEyeDasPipe_stdIfDPipeInit')
+	.sect	'.debug_loc'
+.L21:
+	.word	-1,.L22,0,.L72-.L22
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L75:
+	.word	-1,.L22,0,.L117-.L22
+	.half	1
+	.byte	101
+	.word	.L119-.L22,.L72-.L22
+	.half	1
+	.byte	108
+	.word	0,0
+.L74:
+	.word	-1,.L22,0,.L117-.L22
+	.half	1
+	.byte	100
+	.word	.L118-.L22,.L72-.L22
+	.half	1
+	.byte	111
+	.word	0,0
+	.sdecl	'.debug_frame',debug
+	.sect	'.debug_frame'
+.L189:
+	.word	48
+	.word	-1
+	.byte	3,0,2,1,27,12,26,0,8,26,8,27,8,30,8,29,8,28,8,16,8,17,8,24,8,25,8,31,8,32,8,33,8,34,8,35,8,36,8,37,8,38
+	.byte	8,39
+	.sdecl	'.debug_frame',debug,cluster('Ifx_OneEyeDasPipe_Write')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L189,.L10,.L76-.L10
+	.sdecl	'.debug_frame',debug,cluster('Ifx_OneEyeDasPipe_Read')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L189,.L12,.L87-.L12
+	.sdecl	'.debug_frame',debug,cluster('Ifx_OneEyeDasPipe_ClearRx')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L189,.L14,.L93-.L14
+	.sdecl	'.debug_frame',debug,cluster('Ifx_OneEyeDasPipe_ClearTx')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L189,.L16,.L95-.L16
+	.sdecl	'.debug_frame',debug,cluster('Ifx_OneEyeDasPipe_initConfig')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L189,.L18,.L62-.L18
+	.byte	8,18,8,19,8,21,8,22,8,23,0,0
+	.sdecl	'.debug_frame',debug,cluster('Ifx_OneEyeDasPipe_init')
+	.sect	'.debug_frame'
+	.word	36
+	.word	.L189,.L20,.L66-.L20
+	.byte	4
+	.word	(.L110-.L20)/2
+	.byte	19,8,22,26,3,19,138,8,4
+	.word	(.L66-.L110)/2
+	.byte	19,0,8,26,0,0
+	.sdecl	'.debug_frame',debug,cluster('Ifx_OneEyeDasPipe_stdIfDPipeInit')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L189,.L22,.L72-.L22
+	; Module end

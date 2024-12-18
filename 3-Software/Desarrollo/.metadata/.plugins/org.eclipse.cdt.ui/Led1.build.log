@@ -1,0 +1,13 @@
+18:08:13 **** Incremental Build of configuration TriCore Debug (TASKING) for project Led1 ****
+amk -j8 all 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): program builder v1.1r8 Build 22011964
+Invoking: Print Size
+elfsize  "Led1.elf"
+Total sizes:
+ROM: 0x494f (18767) = code: 0x352e (13614) + romdata: 0x1421 (5153)
+RAM: 0xe8a6 (59558) = data + bss
+Finished building: Led1.siz
+ 
+
+18:08:13 Build Finished. 0 errors, 0 warnings. (took 170ms)
+
