@@ -59,4 +59,13 @@
   <v1:configSetting configurationId="p00_6.out.bind" altId="p00_6.out.bind.gpio"/>
   <v1:configSetting configurationId="p00_6.out.mode" altId="p00_6.out.mode.od"/>
   <v1:configSetting configurationId="p00_5.out.mode" altId="p00_5.out.mode.od"/>
+  <v1:configSetting configurationId="an0.an.bind" altId="an0.an.bind.none"></v1:configSetting>
+  <v1:configSetting configurationId="p00_7.in.bind" altId="p00_7.in.bind.gpio"/>
+  <v1:propertySetting propertyId="p00_6.comment" value="Activo a bajo"/>
+  <v1:propertySetting propertyId="p00_7.symbolicname" value="M_BUTTON1"/>
+  <v1:propertySetting propertyId="p00_5.comment" value="Activo a bajo"/>
+  <v1:propertySetting propertyId="p00_7.comment" value="Activo a bajo"/>
+  <v1:configSetting configurationId="g0_grp.wr.bind" altId="g0_grp.wr.bind.none"/>
+  <v1:configSetting configurationId="g0_qreq0.gate.bind" altId="g0_qreq0.gate.bind.none"/>
+  <v1:configSetting configurationId="g0_qreq0.trigin.bind" altId="g0_qreq0.trigin.bind.none"/>
 </v1:pinSettings>

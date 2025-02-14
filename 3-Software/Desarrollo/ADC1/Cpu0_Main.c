@@ -49,6 +49,7 @@
 #include "stdint.h"								//For Integer Types use 
 #include "stdbool.h"							//For Boolean type and values use
 #include "constants.h"						//Contains the common defines of the application
+#include "ADC_Channels.h"					//Para uso de ADC
 
 IFX_ALIGN(4) IfxCpu_syncEvent g_cpuSyncEvent = 0;
 
@@ -72,7 +73,9 @@ void core0_main(void)
 	IfxPort_setPinHigh(IFXCFG_PORT_M_LED1_GREEN.port, IFXCFG_PORT_M_LED1_GREEN.pinIndex);		//Ponemos los pines a HIGH, desactivos,
 	IfxPort_setPinHigh(IFXCFG_PORT_M_LED2_GREEN.port, IFXCFG_PORT_M_LED2_GREEN.pinIndex);		//antes de ponerlos en modo salida
 
-	gpio_init_pins();
+	gpio_init_pins();			//Iniciamos los pines de gpio
+   
+	initEVADC();					// Function to initialize the EVADC 
 
 // Activamos para comprobar 14/01/2025 16:44:56
 //	IfxPort_setPinLow(IFXCFG_PORT_M_LED1_GREEN.port, IFXCFG_PORT_M_LED1_GREEN.pinIndex);
@@ -82,6 +85,7 @@ void core0_main(void)
 	// Bucle infinito
 	while(true){
 		u32count++;
+    readEVADC();
 		if (CONV_COUNT_U32 <= u32count){
 			u32count = CERO_U32;
 			IfxPort_togglePin(IFXCFG_PORT_M_LED1_GREEN.port, IFXCFG_PORT_M_LED1_GREEN.pinIndex);

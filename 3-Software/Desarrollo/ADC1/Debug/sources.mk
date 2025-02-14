@@ -24,15 +24,17 @@ SECONDARY_SIZE :=
 
 # Every subdirectory with source files must be described here
 SUBDIRS := \
+. \
 Configurations/Debug \
 Configurations \
-. \
 Libraries/Infra/Platform/Tricore/Compilers \
 Libraries/Infra/Ssw/TC37A/Tricore \
 Libraries \
 Libraries/iLLD/TC37A/Tricore/Cpu/Irq \
 Libraries/iLLD/TC37A/Tricore/Cpu/Std \
 Libraries/iLLD/TC37A/Tricore/Cpu/Trap \
+Libraries/iLLD/TC37A/Tricore/Evadc/Adc \
+Libraries/iLLD/TC37A/Tricore/Evadc/Std \
 Libraries/iLLD/TC37A/Tricore/Gtm/Std \
 Libraries/iLLD/TC37A/Tricore/Mtu/Std \
 Libraries/iLLD/TC37A/Tricore/Pms/Std \

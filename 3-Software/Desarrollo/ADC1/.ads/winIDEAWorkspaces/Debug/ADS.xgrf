@@ -77,11 +77,11 @@
         </__.16>
         <__.17>
          <BookmarkList></BookmarkList>
-         <CaretPos>3632</CaretPos>
+         <CaretPos>4856</CaretPos>
          <Encoding>1</Encoding>
          <FileName>C:\Proyectos\20220123 Control Motores\3-Software\Desarrollo\ADC1\Cpu0_Main.c</FileName>
          <FileType>1</FileType>
-         <ScrollPos>41</ScrollPos>
+         <ScrollPos>46</ScrollPos>
         </__.17>
         <__.18>
          <BookmarkList></BookmarkList>
@@ -803,10 +803,6 @@
       </FindInFilesDialogData>
      </GlobalData>
      <History>
-      <ComboBox>
-       <ComboBoxes>
-       </ComboBoxes>
-      </ComboBox>
      </History>
      <Options>
       <CallstackWindow>

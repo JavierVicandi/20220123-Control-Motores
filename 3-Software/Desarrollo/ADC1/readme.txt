@@ -11,8 +11,8 @@
 ==========================================================================
 History
 Date				Ver			Author			AURIX DS		PinMapper		FW_TC37A					VS				Description
-10/12/2024 	1.01		J.Vicandi		1.10.6			1.3					iLLD_1_0_1_17_0		V7.5			Versión inicial
-13/12/2024 	1.02		J.Vicandi		1.10.6			1.3					iLLD_1_0_1_17_0		V7.5			Versión inicial 
+14/01/2025 	1.00		J.Vicandi		1.10.6			1.3					iLLD_1_0_1_17_0		V7.5			Versión inicial
+14/02/2025 	1.01		J.Vicandi		1.10.6			1.3					iLLD_1_0_1_17_0		V7.5
 //------------------------------------------------------------------------
 // Project structure
 //------------------------------------------------------------------------
@@ -34,3 +34,11 @@ RAM: 0x8494 (33940) = data + bss
 Finished building: ADC1.siz
 17:00:35 Build Finished. 0 errors, 0 warnings. (took 172ms) 
 
+Ver. 1.01
+Realizamos conversiones en un solo canal disparando por software.
+elfsize  "ADC1.elf"
+Total sizes:
+ROM: 0x48e4 (18660) = code: 0x3388 (13192) + romdata: 0x155c (5468)
+RAM: 0x8598 (34200) = data + bss
+Finished building: ADC1.siz
+17:00:35 Build Finished. 0 errors, 0 warnings. (took 172ms) 

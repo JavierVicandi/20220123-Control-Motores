@@ -35,11 +35,17 @@
 #define IFXCFG_PORT_M_LED2_GREEN_MODE           IfxPort_Mode_outputOpenDrainGeneral
 #define IFXCFG_PORT_M_LED2_GREEN_PAD_DRIVER     IfxPort_PadDriver_cmosAutomotiveSpeed4
 
+// p00_7
+#define IFXCFG_PORT_M_BUTTON1                   IfxPort_P00_7
+#define IFXCFG_PORT_M_BUTTON1_MODE              IfxPort_Mode_inputPullUp
+#define IFXCFG_PORT_M_BUTTON1_PAD_DRIVER        IfxPort_PadDriver_cmosAutomotiveSpeed1
+
 
 /* Generic port I/O configuration */
 
 #define IFXCFG_P00_5_IO_CONFIG                  { &IFXCFG_PORT_M_LED1_GREEN, IFXCFG_PORT_M_LED1_GREEN_MODE, IFXCFG_PORT_M_LED1_GREEN_PAD_DRIVER }
 #define IFXCFG_P00_6_IO_CONFIG                  { &IFXCFG_PORT_M_LED2_GREEN, IFXCFG_PORT_M_LED2_GREEN_MODE, IFXCFG_PORT_M_LED2_GREEN_PAD_DRIVER }
+#define IFXCFG_P00_7_IO_CONFIG                  { &IFXCFG_PORT_M_BUTTON1, IFXCFG_PORT_M_BUTTON1_MODE, IFXCFG_PORT_M_BUTTON1_PAD_DRIVER }
 
 
 /* Initialization routines */
